@@ -1,0 +1,73 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: arial;
+	font-size: 14px;
+}
+
+.list-menu {
+	background-color: green;
+	padding: 20px 0 0 300px;
+
+}
+
+.list-menu li{
+	display: inline;
+	padding-left: 10px;
+}
+
+a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.list-menu a{
+	color: white;
+}
+
+.list-menu a:hover{
+	color: brown;
+}
+
+p#caption{
+	padding: 100px 0 0 200px;
+	font-size: 24px;
+	color: blue;
+	text-transform: uppercase;
+}
+
+.list-product{
+	padding: 30px 0 0 200px;
+}
+
+.list-product li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+}
+
+.list-product img{
+	border: 2px solid grey;
+	max-width: 160px;
+	max-height: 160px;
+}
+.list-product a{
+	text-decoration: none;
+	color: blue;
+	text-transform: capitalize;
+	padding: 20px;
+}
+
+p.monney{
+	padding: 5px 0 0 30px;
+	color: red;
+
+}
+
+p.monney b::after{
+	content: " VND"
+}
