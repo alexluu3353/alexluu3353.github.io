@@ -1,0 +1,61 @@
+.menu{
+	padding: 30px 0 0 400px;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	height: 80px;
+}
+
+.menu li{
+	list-style: none;
+	display: inline;
+	padding: 30px;
+}
+
+.menu a{
+	text-transform: uppercase;;
+	text-decoration: none;
+	color: #444444;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.menu a:hover{
+	color: orange;
+}
+
+.banner img{
+	width: 1280px;
+}
+
+.colt{
+	padding: 100px 0 0 80px;
+}
+
+.sub-colt{
+	width: 250px;
+	height: 200px;
+	float: left;
+	margin: auto;
+}
+
+.sub-colt:hover {
+	transform: scale(1.5, 1.5);
+	margin: auto;
+}
+
+.img-colt img{
+	width: 200px;
+}
+
+
+.name-colt a{
+	text-transform: uppercase;;
+	text-decoration: none;
+	color: #ff5859;
+	font-weight: bold;
+	margin: 50px auto;
+}
+
+.clr{
+	clear: both;
+}
