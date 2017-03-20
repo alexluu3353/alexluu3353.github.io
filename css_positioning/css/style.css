@@ -9,6 +9,8 @@ body{
 	font-size: 14px;
 }
 
+li {list-style-type: none;}
+a {text-decoration: none;}
 .wraper{
 	width: 1280px;
 	background-color: white;
