@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Caculator</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+	<div class="container">
+		<div class="display">
+			<input id="screen" type="text" readonly="readonly" size="18" />
+		</div>
+		<div class="keys">
+			<p>
+				<input type="button" class="button button--gray" value="%" onclick="test()">
+				<input type="button" class="button button--gray" value="x&sup2;" onclick="test()">
+				<input type="button" class="button button--gray" value="&radic;" onclick="test()">
+				<input type="button" class="button button--pink" value="/" onclick="calOperate('/')">
+			</p>
+			<p>
+				<input type="button" class="button button--black" value="7" onclick="calAddDigit('7')">
+				<input type="button" class="button button--black" value="8" onclick="calAddDigit('8')">
+				<input type="button" class="button button--black" value="9" onclick="calAddDigit('9')">
+				<input type="button" class="button button--pink" value="*" onclick="calOperate('*')">
+			</p>
+			<p>
+				<input type="button" class="button button--black" value="4" onclick="calAddDigit('4')">
+				<input type="button" class="button button--black" value="5" onclick="calAddDigit('5')">
+				<input type="button" class="button button--black" value="6" onclick="calAddDigit('6')">
+				<input type="button" class="button button--pink" value="-" onclick="calOperate('-')">
+			</p>
+			<p>
+				<input type="button" class="button button--black" value="1" onclick="calAddDigit('1')">
+				<input type="button" class="button button--black" value="2" onclick="calAddDigit('2')">
+				<input type="button" class="button button--black" value="3" onclick="calAddDigit('3')">
+				<input type="button" class="button button--pink" value="+" onclick="calOperate('+')">
+			</p>
+			<p>
+				<input type="button" class="button button--black" value="0" onclick="calAddDigit('0')">
+				<input type="button" class="button button--black" value="." onclick="calDot()">
+				<input type="button" class="button button--black" value="C" onclick="calAllClear()">
+				<input type="button" class="button button--orange" value="=" onclick="calCaculate()">
+			</p>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="calculator.js"> </script>
+</body>
+</html>
